@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": "6db2",
+      "nombre": "Figura de Stormtropper",
+      "precio": "150000",
+      "url": "https://th.bing.com/th/id/OIP.lxP3KnVPQVNx4_qW_K10gQHaFj?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "e44c",
+      "nombre": "Figura Nezuko",
+      "precio": "80000",
+      "url": "https://th.bing.com/th/id/OIP.xql8fPQEjPl-hzT5BTOzJAHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "b08c",
+      "nombre": "Figura Barbablanca",
+      "precio": "200000",
+      "url": "https://th.bing.com/th/id/OIP.vSqIoFTWVPcnNFgKZzVdZQHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "8bb5",
+      "nombre": "Figura Naruto",
+      "precio": "90000",
+      "url": "https://th.bing.com/th/id/R.b6b3bf893fad06806141012de20d7ad4?rik=CPL1eRIvWU%2bVxw&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "c472",
+      "nombre": "Game Boy Colors",
+      "precio": "250000",
+      "url": "https://i.pinimg.com/originals/97/cc/52/97cc52f46e8cc3cc691eecbd7f5ebe51.jpg"
+    },
+    {
+      "id": "0004",
+      "nombre": "Consola Super Nintendo",
+      "precio": "400000",
+      "url": "https://http2.mlstatic.com/super-nintendo-nes-mini-classic-edition-snes-caja-solamente-D_NQ_NP_978377-MLM27409827808_052018-F.jpg"
+    },
+    {
+      "id": "8f87",
+      "nombre": "Llavero Atack on titan",
+      "precio": "15000",
+      "url": "https://m.media-amazon.com/images/I/61EY8vxgbGL.jpg"
+    },
+    {
+      "id": "1d7b",
+      "nombre": "Figura Rengoku",
+      "precio": "190000",
+      "url": "https://th.bing.com/th/id/OIP.0y6sigG5S1PmfInF4-qTlwHaJ3?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "73be",
+      "nombre": "Figura Darth Maul",
+      "precio": "140000",
+      "url": "https://th.bing.com/th/id/R.0830027de716008f03ca3a8fde792888?rik=%2fABPC%2foKKIlK5g&pid=ImgRaw&r=0"
+    }
+  ]
+}

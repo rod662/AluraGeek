@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="public/vendor/bootstrap-icons.css">
+    <link rel="stylesheet" href="normalyze.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor__header">
+            <div class="contenido__header">
+                <p class="imagen__header"><i class="bi bi-heart-fill"></i> <i class="bi bi-heart-fill"></i> <i class="bi bi-suit-heart"></i></p>
+                <h2 class="texto__header">ALURAGEEK</h2>
+                
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="contenedor__main">
+            <div class="contenido__main">
+                <div class="contenido__productos"> 
+                    <h1 class="productos__titulo">MIS PRODUCTOS:</h1>
+                    <ul class="productos__contenedor" data-lista>
+                       
+                    </ul>
+                </div>
+                <div class="contenido__agregar">
+                    <h1 class="agregar__titulo">AGREGAR PRODUCTO:</h1>
+                    <div class="agregar__formulario">
+                        <form class="formulario_agregar" data-formulario>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ingresa el nombre del producto..." required id='nombre' data-nombre> 
+                            <input type="number" id="precio" name="precio" placeholder="Ingresa el precio del producto..." required id='precio' data-precio> 
+                            <input type="text" id="imagen" name="imagen" placeholder="Ingresa la URL de la imagen..." required id='url' data-url> 
+                            <div class="formulario__botones">
+                                <button type="submit" class="boton boton_enviar">Enviar</button>
+                                <button type="reset" class="boton boton_limpiar">Limpiar</button>
+                            </div>
+                        </form>
+                                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="contenedor__footer">
+            <div class="contenido__footer">
+                <p  class="imagen__footer"><i class="bi bi-heart-fill"></i> <i class="bi bi-heart-fill"></i> <i class="bi bi-suit-heart"></i> <span class="texto_titulo">ALURAGEEK</span></p>
+                
+                <p class="texto__footer">Desarrollado por Rodrigo Gómez</p>
+                <p class="texto__footer">Alura Latam 2024</p>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="./js/mostrarproductos.js" type="module"></script>
+    <script src="./js/crearproducto.js" type="module"></script>
+    
+    
+</body>
+</html>
